@@ -10,6 +10,7 @@ Mostly of colors configs are controlled by AI generated script (resources/wallpa
 - Terminal: kitty
 - File manager: thunar
 - Sound widget: eww
+- Font: Google sans
 - Icon pack: oomox archdroid
 - Gtk theme: oomox custom
 - Cursor: bibata modern classic
