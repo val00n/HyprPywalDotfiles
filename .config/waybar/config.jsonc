@@ -1,0 +1,24 @@
+// waybar cfg by val00n
+
+{
+	"include": [
+    	"~/.config/waybar/modules.jsonc"
+  	],
+  	
+    "layer": "top",
+    "height": 40,
+    "modules-left": ["custom/separator", "custom/launcher", "custom/separator", "hyprland/workspaces", "custom/separator", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["mpris", "custom/separator", "pulseaudio", "custom/separator", "group/tra", "custom/separator", "group/res", "custom/separator", "custom/shutdown", "custom/separator"],
+
+    "group/res": {
+        	"orientation": "inherit",
+        	"modules": ["temperature", "custom/separator", "memory", "custom/separator", "cpu"],
+    },
+
+    "group/tra": {
+            	"orientation": "inherit",
+            	"modules": ["tray", "custom/separator", "hyprland/language"],
+        },
+}
+

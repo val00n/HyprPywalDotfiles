@@ -1,0 +1,54 @@
+@import url(".config/resources/colors.css");
+
+* {
+  font-family: Google Sans;
+  font-weight: bold;
+  font-size: 18px;
+  background: solid;
+  color: @foreground;
+  padding: 2px;
+  
+}
+
+#window {
+    margin: 0px;
+    border-radius: 20px;
+    background-color: alpha(@background,1.0);
+    color:@dark-background;
+    border: 5px solid @accent;
+}
+
+#input {
+    margin: 10px;
+    margin-top: 20px;
+    border: 0px solid;
+    color: @foreground;
+    border-radius: 25px;
+}
+
+#scroll {
+    margin-bottom: 15px;
+}
+
+#entry {
+    margin: 0px 10px;
+}
+
+#entry:selected {
+    background-color:  alpha(@accent, 1.0);
+    color: @background;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#entry > box {
+    margin-left: 16px;
+}
+
+
+#entry image {
+    padding-right: 10px;
+}
+
+

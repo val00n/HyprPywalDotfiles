@@ -1,0 +1,129 @@
+@import url("../resources/colors.css");
+
+* {
+  font-family: "Google Sans";
+  font-weight: bold;
+  color: @foreground;
+  background: rgba(0,0,0,0);
+  font-size: 18px;
+}
+
+tooltip {
+  background-color: @background;
+  border: solid @accent;
+  border-width: 5px;
+  border-radius: 20px;
+}
+
+tooltip label {
+	color: @foreground;
+}
+
+#custom-launcher {
+	background: @background;
+	    padding-left: 10px;
+	    padding-right: 5px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+#custom-shutdown {
+	background: @background;
+		    padding-left: 10px;
+		    padding-right: 5px;
+		    border: solid @accent;
+		    border-width: 5px;
+		    border-radius: 20px;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+}
+
+
+#workspaces {
+	background: @background;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+#tra {
+	background: @background;
+			padding-left: 15px;
+			padding-right: 15px;
+		    border: solid @accent;
+		    border-width: 5px;
+		    border-radius: 20px;
+}
+
+#mpris {
+	background: @background;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+#window{
+    background: @background;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	border: solid @accent;
+    	border-width: 5px;
+    	border-radius: 20px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	font-weight: normal;
+    	font-style: normal;
+}
+
+#clock {
+	background: @background;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+#pulseaudio {
+	background: @background;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+#res {
+	background: @background;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    border: solid @accent;
+	    border-width: 5px;
+	    border-radius: 20px;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
