@@ -17,12 +17,13 @@ tooltip {
 
 tooltip label {
 	color: @foreground;
+	padding: 5px;
 }
 
 #custom-launcher {
 	background: @background;
-	    padding-left: 10px;
-	    padding-right: 5px;
+	    padding-left: 11px;
+	    padding-right: 4px;
 	    border: solid @accent;
 	    border-width: 5px;
 	    border-radius: 20px;
@@ -32,8 +33,8 @@ tooltip label {
 
 #custom-shutdown {
 	background: @background;
-		    padding-left: 10px;
-		    padding-right: 5px;
+		    padding-left: 11px;
+		    padding-right: 4px;
 		    border: solid @accent;
 		    border-width: 5px;
 		    border-radius: 20px;
@@ -51,6 +52,14 @@ tooltip label {
 	    border-radius: 20px;
 	    margin-top: 0px;
 	    margin-bottom: 0px;
+}
+
+#tray menu {
+	background: @background;
+			padding: 10px;
+		    border: solid @accent;
+		    border-width: 5px;
+		    border-radius: 20px;
 }
 
 #tra {
